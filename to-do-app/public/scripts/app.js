@@ -5,7 +5,7 @@ console.log('App.js is running!');
 
 var template = React.createElement(
     "h1",
-    { id: "someid" }, //will be null if no id defined
+    { id: "someid" }, //attributes object, will be null if no id defined
     "This is sample txt."
   ); 
   //babel generated JS from>> var template = <h1 id="someid">This is shit!</h1>
